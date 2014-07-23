@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Pumpkins</string>
+		<key>artist</key>
+		<string>Smashing Pumpkins</string>
+		<key>summary</key>
+		<string>Pumpkin Pie for your eye drums</string>
+		<key>price</key>
+		<real>4.99</real>
+		<key>locationInStore</key>
+		<string>Section P</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Infected Splinter</string>
+		<key>artist</key>
+		<string>Boppin&apos; Beavers</string>
+		<key>summary</key>
+		<string>Awesome album with a hint of Oak</string>
+		<key>price</key>
+		<real>9.99</real>
+		<key>locationInStore</key>
+		<string>Section F</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hairy Eyeball</string>
+		<key>artist</key>
+		<string>Cyclops</string>
+		<key>summary</key>
+		<string>A 20/20 retrospective on Classic Rock</string>
+		<key>price</key>
+		<real>14.99</real>
+		<key>locationInStore</key>
+		<string>Discount Rack</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Squish</string>
+		<key>artist</key>
+		<string>the Bugz</string>
+		<key>summary</key>
+		<string>Not your average fly by night band.</string>
+		<key>price</key>
+		<real>8.99</real>
+		<key>locationInStore</key>
+		<string>Section A</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Acid Fog</string>
+		<key>artist</key>
+		<string>Josh and Chuck</string>
+		<key>summary</key>
+		<string>You should know this stuff.</string>
+		<key>price</key>
+		<real>11.99</real>
+		<key>locationInStore</key>
+		<string>Section 9 3/4</string>
+	</dict>
+</array>
+</plist>
