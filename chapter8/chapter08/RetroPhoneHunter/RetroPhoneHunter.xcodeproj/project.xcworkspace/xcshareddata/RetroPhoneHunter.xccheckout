@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1ED9A55-A729-4690-BD1E-9A471C4836B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RetroPhoneHunter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAC983EA-4065-406B-A1CE-6422BB5A5CD8</key>
+		<string>https://github.com/dpilone/Head-First-iPhone-iPad-Development-3rd-Edition/branches/chapter8</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>chapter08/RetroPhoneHunter/RetroPhoneHunter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAC983EA-4065-406B-A1CE-6422BB5A5CD8</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>BAC983EA-4065-406B-A1CE-6422BB5A5CD8</key>
+		<string>https://github.com/dpilone/Head-First-iPhone-iPad-Development-3rd-Edition</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpilone/Head-First-iPhone-iPad-Development-3rd-Edition/branches/chapter8/chapter08/RetroPhoneHunter/RetroPhoneHunter.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAC983EA-4065-406B-A1CE-6422BB5A5CD8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAC983EA-4065-406B-A1CE-6422BB5A5CD8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chapter8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

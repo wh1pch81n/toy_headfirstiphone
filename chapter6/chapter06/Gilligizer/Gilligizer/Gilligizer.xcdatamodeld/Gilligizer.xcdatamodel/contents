@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6198" systemVersion="13D65" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Show" representedClassName="Show" syncable="YES">
+        <attribute name="desc" attributeType="String" syncable="YES"/>
+        <attribute name="episodeID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstRun" attributeType="Boolean" syncable="YES"/>
+        <attribute name="showTime" attributeType="Date" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Show" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>

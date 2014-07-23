@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zX4-xx-1gW"/>
+                        <viewControllerLayoutGuide type="bottom" id="AsR-rn-s0h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="&lt;your tweet here>" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-HC-DOu">
+                                <rect key="frame" x="20" y="88" width="280" height="180"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="pwo-yZ-f83"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igr-Ss-6Lr">
+                                <rect key="frame" x="20" y="276" width="280" height="30"/>
+                                <state key="normal" title="Post It!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postItButtonPressed:" destination="2" eventType="touchUpInside" id="sES-mr-S88"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MarcoNetwork" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-RN-2H2">
+                                <rect key="frame" x="20" y="20" width="280" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NbN-6h-edJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="igr-Ss-6Lr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="IrG-ZQ-JQ2"/>
+                            <constraint firstItem="Qgh-HC-DOu" firstAttribute="top" secondItem="8Id-RN-2H2" secondAttribute="bottom" constant="8" symbolic="YES" id="RyC-QP-UHw"/>
+                            <constraint firstAttribute="trailing" secondItem="igr-Ss-6Lr" secondAttribute="trailing" constant="20" symbolic="YES" id="Ubd-tJ-Thc"/>
+                            <constraint firstItem="igr-Ss-6Lr" firstAttribute="top" secondItem="Qgh-HC-DOu" secondAttribute="bottom" constant="8" symbolic="YES" id="Vuv-mA-Wtt"/>
+                            <constraint firstItem="Qgh-HC-DOu" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="WOS-Ur-DqD"/>
+                            <constraint firstAttribute="trailing" secondItem="8Id-RN-2H2" secondAttribute="trailing" constant="20" symbolic="YES" id="cGu-t6-PK6"/>
+                            <constraint firstAttribute="trailing" secondItem="Qgh-HC-DOu" secondAttribute="trailing" constant="20" symbolic="YES" id="ceI-yl-Sz0"/>
+                            <constraint firstItem="8Id-RN-2H2" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="lP5-um-zIl"/>
+                            <constraint firstItem="8Id-RN-2H2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" id="ph0-6w-e2J"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tweetTextView" destination="Qgh-HC-DOu" id="A80-WD-QgT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
